@@ -4,10 +4,6 @@
 
 “다나오더”는 소상공인 카페를 위한 스마트오더 서비스로, 소비자들이 다나페이를 활용하여 결제하고 근처의 카페를 쉽게 찾아 메뉴를 주문할 수 있는 RestAPI 시스템을 개발(백엔드)하였습니다. 
 
-### ✅ 코드보기
-
-- [**https://github.com/OpenBanking-DaNa/DANAPAY**](https://github.com/OpenBanking-DaNa/DANAPAY)
-
 ### ✅ 개발환경
 
 - Java 17(temurin), Spring Boot 3.1.5, Mybatis, Oracle, JWT, GitHub
