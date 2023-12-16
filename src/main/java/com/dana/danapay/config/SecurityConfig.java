@@ -40,7 +40,7 @@ public class SecurityConfig {
 
         http.httpBasic(HttpBasicConfigurer::disable)
                 .csrf(CsrfConfigurer::disable)
-                .cors(cors -> cors.disable())
+                .cors(custom -> custom.configurationSource(new CorsConfig().corsFilter()))
                 .sessionManagement(config -> config.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(
                         author -> author
